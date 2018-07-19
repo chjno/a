@@ -1,12 +1,13 @@
 function setup(){
 	createCanvas(500, 500);
-	background(200);
 }
 
 function draw(){
+	background(200);
 	text(mouseX + ', ' + mouseY, mouseX, mouseY);
+	text('click', 100, 100);
 }
 
 function mousePressed(){
-	print('(' + mouseX + ', ' + mouseY + ')');
+	location.href = '../index.html'
 }
