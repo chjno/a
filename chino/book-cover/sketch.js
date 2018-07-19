@@ -4,7 +4,7 @@ function setup(){
 }
 
 function draw(){
-	text(mouseX + ', ' + mouseY, 0,0)
+	text(mouseX + ', ' + mouseY, mouseX, mouseY);
 }
 
 function mousePressed(){
